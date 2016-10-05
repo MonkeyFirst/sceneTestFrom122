@@ -14,6 +14,8 @@ public:
 
 	DebugHud* debugHud_;
 	Vector<SharedPtr<Material>> colorBoxMat_;
+	Vector<SharedPtr<Material>> colorTeaPotMat_;
+
 
 public:
     MyApp(Context* context) :
@@ -23,13 +25,13 @@ public:
     virtual void Setup()
     {
         // Called before engine initialization. engineParameters_ member variable can be modified here
-#if 1
+#if 0
 		engineParameters_["WindowWidth"] = 1280;
 		engineParameters_["WindowHeight"] = 720;
 		engineParameters_["FullScreen"] = false;
 #else
-		engineParameters_["WindowWidth"] = 1920;
-		engineParameters_["WindowHeight"] = 1080;
+		//engineParameters_["WindowWidth"] = 1920;
+		//engineParameters_["WindowHeight"] = 1080;
 		engineParameters_["FullScreen"] = true;
 #endif
 		engineParameters_["VSync"] = false;
@@ -137,11 +139,20 @@ public:
 		ResourceCache* cache = GetSubsystem<ResourceCache>();
 		Material* baseMat = cache->GetResource<Material>("Materials/ColorBox.xml");
 		colorBoxMat_.Resize(11);
+		colorTeaPotMat_.Resize(11);
 		for (int i = 0; i < 10; ++i) 
 		{
 			colorBoxMat_[i] = baseMat->Clone(String(i));
 			colorBoxMat_[i]->SetShaderParameter("UOffset", Vector4(0.1f, 0.0f, 0.0f, 0.1f * i));
 			colorBoxMat_[i]->SetShaderParameter("VOffset", Vector4(0.0f, 1.0f, 0.0f, 0.0f));
+
+			colorTeaPotMat_[i] = baseMat->Clone();
+			//colorTeaPotMat_[i]->SetVertexShaderDefines("TRANSLUCENT");
+			//colorTeaPotMat_[i]->SetPixelShaderDefines("TRANSLUCENT");
+			colorTeaPotMat_[i]->SetShaderParameter("UOffset", Vector4(0.1f, 0.0f, 0.0f, 0.1f * i));
+			colorTeaPotMat_[i]->SetShaderParameter("VOffset", Vector4(0.0f, 1.0f, 0.0f, 0.0f));
+			colorTeaPotMat_[i]->SetCullMode(CULL_NONE);
+
 		}
 
 		colorBoxMat_[10] = cache->GetResource<Material>("Materials/Water2.xml");
@@ -172,7 +183,7 @@ public:
 		node->SetScale(Vector3::ONE * 2.5f);
 		StaticModel* sm = node->CreateComponent<StaticModel>();
 		sm->SetModel(boxModel);
-		sm->SetMaterial(0, colorBoxMat_[c]);
+		sm->SetMaterial(0, colorTeaPotMat_[c]);
 		//sm->SetCastShadows(true);
 	}
 
