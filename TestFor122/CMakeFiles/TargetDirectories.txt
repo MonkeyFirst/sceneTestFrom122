@@ -1,0 +1,4 @@
+C:/TestFor122/CMakeFiles/MyExecutableName.dir
+C:/TestFor122/CMakeFiles/INSTALL.dir
+C:/TestFor122/CMakeFiles/ALL_BUILD.dir
+C:/TestFor122/CMakeFiles/ZERO_CHECK.dir

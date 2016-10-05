@@ -1,0 +1,680 @@
+The system is: Windows - 10.0.14393 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 05.10.2016 20:11:03.
+Проект "C:\TestFor122\CMakeFiles\3.6.0-rc1\CompilerIdC\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "Debug\".
+  Создание каталога "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Создание "Debug\CompilerIdC.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\TestFor122\CMakeFiles\3.6.0-rc1\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Файл "Debug\CompilerIdC.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Сборка проекта "C:\TestFor122\CMakeFiles\3.6.0-rc1\CompilerIdC\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:00.42
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/TestFor122/CMakeFiles/3.6.0-rc1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 05.10.2016 20:11:03.
+Проект "C:\TestFor122\CMakeFiles\3.6.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "Debug\".
+  Создание каталога "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Создание "Debug\CompilerIdCXX.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\TestFor122\CMakeFiles\3.6.0-rc1\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Файл "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Сборка проекта "C:\TestFor122\CMakeFiles\3.6.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:00.29
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/TestFor122/CMakeFiles/3.6.0-rc1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/TestFor122/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_d91b6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 05.10.2016 20:11:04.
+Проект "C:\TestFor122\CMakeFiles\CMakeTmp\cmTC_d91b6.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_d91b6.dir\Debug\".
+  Создание каталога "C:\TestFor122\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_d91b6.dir\Debug\cmTC_d91b6.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_d91b6.dir\Debug\cmTC_d91b6.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d91b6.dir\Debug\\" /Fd"cmTC_d91b6.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue C:\TestFor122\CMakeFiles\CMakeTmp\testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d91b6.dir\Debug\\" /Fd"cmTC_d91b6.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue C:\TestFor122\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\TestFor122\CMakeFiles\CMakeTmp\Debug\cmTC_d91b6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/TestFor122/CMakeFiles/CMakeTmp/Debug/cmTC_d91b6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/TestFor122/CMakeFiles/CMakeTmp/Debug/cmTC_d91b6.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_d91b6.dir\Debug\testCCompiler.obj
+  cmTC_d91b6.vcxproj -> C:\TestFor122\CMakeFiles\CMakeTmp\Debug\cmTC_d91b6.exe
+FinalizeBuildStatus:
+  Файл "cmTC_d91b6.dir\Debug\cmTC_d91b6.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_d91b6.dir\Debug\cmTC_d91b6.tlog\cmTC_d91b6.lastbuildstate".
+Сборка проекта "C:\TestFor122\CMakeFiles\CMakeTmp\cmTC_d91b6.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:00.54
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/TestFor122/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_85822.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 05.10.2016 20:11:04.
+Проект "C:\TestFor122\CMakeFiles\CMakeTmp\cmTC_85822.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_85822.dir\Debug\".
+  Создание каталога "C:\TestFor122\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_85822.dir\Debug\cmTC_85822.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_85822.dir\Debug\cmTC_85822.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_85822.dir\Debug\\" /Fd"cmTC_85822.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_85822.dir\Debug\\" /Fd"cmTC_85822.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\TestFor122\CMakeFiles\CMakeTmp\Debug\cmTC_85822.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/TestFor122/CMakeFiles/CMakeTmp/Debug/cmTC_85822.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/TestFor122/CMakeFiles/CMakeTmp/Debug/cmTC_85822.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_85822.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_85822.vcxproj -> C:\TestFor122\CMakeFiles\CMakeTmp\Debug\cmTC_85822.exe
+FinalizeBuildStatus:
+  Файл "cmTC_85822.dir\Debug\cmTC_85822.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_85822.dir\Debug\cmTC_85822.tlog\cmTC_85822.lastbuildstate".
+Сборка проекта "C:\TestFor122\CMakeFiles\CMakeTmp\cmTC_85822.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:00.29
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/TestFor122/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b80cc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 05.10.2016 20:11:05.
+Проект "C:\TestFor122\CMakeFiles\CMakeTmp\cmTC_b80cc.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_b80cc.dir\Debug\".
+  Создание каталога "C:\TestFor122\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_b80cc.dir\Debug\cmTC_b80cc.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_b80cc.dir\Debug\cmTC_b80cc.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b80cc.dir\Debug\\" /Fd"cmTC_b80cc.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\TestFor122\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b80cc.dir\Debug\\" /Fd"cmTC_b80cc.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\TestFor122\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\TestFor122\CMakeFiles\CMakeTmp\Debug\cmTC_b80cc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/TestFor122/CMakeFiles/CMakeTmp/Debug/cmTC_b80cc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/TestFor122/CMakeFiles/CMakeTmp/Debug/cmTC_b80cc.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b80cc.dir\Debug\testCXXCompiler.obj
+  cmTC_b80cc.vcxproj -> C:\TestFor122\CMakeFiles\CMakeTmp\Debug\cmTC_b80cc.exe
+FinalizeBuildStatus:
+  Файл "cmTC_b80cc.dir\Debug\cmTC_b80cc.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_b80cc.dir\Debug\cmTC_b80cc.tlog\cmTC_b80cc.lastbuildstate".
+Сборка проекта "C:\TestFor122\CMakeFiles\CMakeTmp\cmTC_b80cc.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:00.29
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/TestFor122/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_788d1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 05.10.2016 20:11:05.
+Проект "C:\TestFor122\CMakeFiles\CMakeTmp\cmTC_788d1.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_788d1.dir\Debug\".
+  Создание каталога "C:\TestFor122\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_788d1.dir\Debug\cmTC_788d1.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_788d1.dir\Debug\cmTC_788d1.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_788d1.dir\Debug\\" /Fd"cmTC_788d1.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_788d1.dir\Debug\\" /Fd"cmTC_788d1.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\TestFor122\CMakeFiles\CMakeTmp\Debug\cmTC_788d1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/TestFor122/CMakeFiles/CMakeTmp/Debug/cmTC_788d1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/TestFor122/CMakeFiles/CMakeTmp/Debug/cmTC_788d1.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_788d1.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_788d1.vcxproj -> C:\TestFor122\CMakeFiles\CMakeTmp\Debug\cmTC_788d1.exe
+FinalizeBuildStatus:
+  Файл "cmTC_788d1.dir\Debug\cmTC_788d1.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_788d1.dir\Debug\cmTC_788d1.tlog\cmTC_788d1.lastbuildstate".
+Сборка проекта "C:\TestFor122\CMakeFiles\CMakeTmp\cmTC_788d1.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:00.29
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/TestFor122/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_13c01.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 05.10.2016 20:11:05.
+Проект "C:\TestFor122\CMakeFiles\CMakeTmp\cmTC_13c01.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_13c01.dir\Debug\".
+  Создание каталога "C:\TestFor122\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_13c01.dir\Debug\cmTC_13c01.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_13c01.dir\Debug\cmTC_13c01.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_13c01.dir\Debug\\" /Fd"cmTC_13c01.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\TestFor122\CMakeFiles\feature_tests.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_13c01.dir\Debug\\" /Fd"cmTC_13c01.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\TestFor122\CMakeFiles\feature_tests.cxx
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\TestFor122\CMakeFiles\CMakeTmp\Debug\cmTC_13c01.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/TestFor122/CMakeFiles/CMakeTmp/Debug/cmTC_13c01.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/TestFor122/CMakeFiles/CMakeTmp/Debug/cmTC_13c01.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_13c01.dir\Debug\feature_tests.obj
+  cmTC_13c01.vcxproj -> C:\TestFor122\CMakeFiles\CMakeTmp\Debug\cmTC_13c01.exe
+FinalizeBuildStatus:
+  Файл "cmTC_13c01.dir\Debug\cmTC_13c01.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_13c01.dir\Debug\cmTC_13c01.tlog\cmTC_13c01.lastbuildstate".
+Сборка проекта "C:\TestFor122\CMakeFiles\CMakeTmp\cmTC_13c01.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:00.29
+
+
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+Determining if the include file d3dcompiler.h exists passed with the following output:
+Change Dir: C:/TestFor122/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9441e.vcxproj" "/p:Configuration=Release" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 05.10.2016 20:11:52.
+Проект "C:\TestFor122\CMakeFiles\CMakeTmp\cmTC_9441e.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_9441e.dir\Release\".
+  Создание каталога "C:\TestFor122\CMakeFiles\CMakeTmp\Release\".
+  Создание каталога "cmTC_9441e.dir\Release\cmTC_9441e.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_9441e.dir\Release\cmTC_9441e.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9441e.dir\Release\\" /Fd"cmTC_9441e.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\TestFor122\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9441e.dir\Release\\" /Fd"cmTC_9441e.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\TestFor122\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  
+  CheckIncludeFile.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\TestFor122\CMakeFiles\CMakeTmp\Release\cmTC_9441e.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/TestFor122/CMakeFiles/CMakeTmp/Release/cmTC_9441e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/TestFor122/CMakeFiles/CMakeTmp/Release/cmTC_9441e.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_9441e.dir\Release\CheckIncludeFile.obj
+  cmTC_9441e.vcxproj -> C:\TestFor122\CMakeFiles\CMakeTmp\Release\cmTC_9441e.exe
+FinalizeBuildStatus:
+  Файл "cmTC_9441e.dir\Release\cmTC_9441e.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_9441e.dir\Release\cmTC_9441e.tlog\cmTC_9441e.lastbuildstate".
+Сборка проекта "C:\TestFor122\CMakeFiles\CMakeTmp\cmTC_9441e.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:00.48
+
+
+Determining if the include file d3d9.h exists passed with the following output:
+Change Dir: C:/TestFor122/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_3a44d.vcxproj" "/p:Configuration=Release" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 05.10.2016 20:11:53.
+Проект "C:\TestFor122\CMakeFiles\CMakeTmp\cmTC_3a44d.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_3a44d.dir\Release\".
+  Создание каталога "C:\TestFor122\CMakeFiles\CMakeTmp\Release\".
+  Создание каталога "cmTC_3a44d.dir\Release\cmTC_3a44d.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_3a44d.dir\Release\cmTC_3a44d.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3a44d.dir\Release\\" /Fd"cmTC_3a44d.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\TestFor122\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3a44d.dir\Release\\" /Fd"cmTC_3a44d.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\TestFor122\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  
+  CheckIncludeFile.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\TestFor122\CMakeFiles\CMakeTmp\Release\cmTC_3a44d.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/TestFor122/CMakeFiles/CMakeTmp/Release/cmTC_3a44d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/TestFor122/CMakeFiles/CMakeTmp/Release/cmTC_3a44d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_3a44d.dir\Release\CheckIncludeFile.obj
+  cmTC_3a44d.vcxproj -> C:\TestFor122\CMakeFiles\CMakeTmp\Release\cmTC_3a44d.exe
+FinalizeBuildStatus:
+  Файл "cmTC_3a44d.dir\Release\cmTC_3a44d.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_3a44d.dir\Release\cmTC_3a44d.tlog\cmTC_3a44d.lastbuildstate".
+Сборка проекта "C:\TestFor122\CMakeFiles\CMakeTmp\cmTC_3a44d.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:00.45
+
+
+Determining if the include file d3d11.h exists passed with the following output:
+Change Dir: C:/TestFor122/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_64757.vcxproj" "/p:Configuration=Release" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 05.10.2016 20:11:54.
+Проект "C:\TestFor122\CMakeFiles\CMakeTmp\cmTC_64757.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_64757.dir\Release\".
+  Создание каталога "C:\TestFor122\CMakeFiles\CMakeTmp\Release\".
+  Создание каталога "cmTC_64757.dir\Release\cmTC_64757.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_64757.dir\Release\cmTC_64757.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_64757.dir\Release\\" /Fd"cmTC_64757.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\TestFor122\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_64757.dir\Release\\" /Fd"cmTC_64757.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\TestFor122\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  
+  CheckIncludeFile.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\TestFor122\CMakeFiles\CMakeTmp\Release\cmTC_64757.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/TestFor122/CMakeFiles/CMakeTmp/Release/cmTC_64757.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/TestFor122/CMakeFiles/CMakeTmp/Release/cmTC_64757.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_64757.dir\Release\CheckIncludeFile.obj
+  cmTC_64757.vcxproj -> C:\TestFor122\CMakeFiles\CMakeTmp\Release\cmTC_64757.exe
+FinalizeBuildStatus:
+  Файл "cmTC_64757.dir\Release\cmTC_64757.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_64757.dir\Release\cmTC_64757.tlog\cmTC_64757.lastbuildstate".
+Сборка проекта "C:\TestFor122\CMakeFiles\CMakeTmp\cmTC_64757.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:00.49
+
+
+Determining if the include file ddraw.h exists passed with the following output:
+Change Dir: C:/TestFor122/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_109e6.vcxproj" "/p:Configuration=Release" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 05.10.2016 20:11:54.
+Проект "C:\TestFor122\CMakeFiles\CMakeTmp\cmTC_109e6.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_109e6.dir\Release\".
+  Создание каталога "C:\TestFor122\CMakeFiles\CMakeTmp\Release\".
+  Создание каталога "cmTC_109e6.dir\Release\cmTC_109e6.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_109e6.dir\Release\cmTC_109e6.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_109e6.dir\Release\\" /Fd"cmTC_109e6.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\TestFor122\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_109e6.dir\Release\\" /Fd"cmTC_109e6.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\TestFor122\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  
+  CheckIncludeFile.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\TestFor122\CMakeFiles\CMakeTmp\Release\cmTC_109e6.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/TestFor122/CMakeFiles/CMakeTmp/Release/cmTC_109e6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/TestFor122/CMakeFiles/CMakeTmp/Release/cmTC_109e6.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_109e6.dir\Release\CheckIncludeFile.obj
+  cmTC_109e6.vcxproj -> C:\TestFor122\CMakeFiles\CMakeTmp\Release\cmTC_109e6.exe
+FinalizeBuildStatus:
+  Файл "cmTC_109e6.dir\Release\cmTC_109e6.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_109e6.dir\Release\cmTC_109e6.tlog\cmTC_109e6.lastbuildstate".
+Сборка проекта "C:\TestFor122\CMakeFiles\CMakeTmp\cmTC_109e6.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:00.45
+
+
+Determining if the include file dsound.h exists passed with the following output:
+Change Dir: C:/TestFor122/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_4ab09.vcxproj" "/p:Configuration=Release" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 05.10.2016 20:11:55.
+Проект "C:\TestFor122\CMakeFiles\CMakeTmp\cmTC_4ab09.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_4ab09.dir\Release\".
+  Создание каталога "C:\TestFor122\CMakeFiles\CMakeTmp\Release\".
+  Создание каталога "cmTC_4ab09.dir\Release\cmTC_4ab09.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_4ab09.dir\Release\cmTC_4ab09.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4ab09.dir\Release\\" /Fd"cmTC_4ab09.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\TestFor122\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4ab09.dir\Release\\" /Fd"cmTC_4ab09.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\TestFor122\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  
+  CheckIncludeFile.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\TestFor122\CMakeFiles\CMakeTmp\Release\cmTC_4ab09.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/TestFor122/CMakeFiles/CMakeTmp/Release/cmTC_4ab09.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/TestFor122/CMakeFiles/CMakeTmp/Release/cmTC_4ab09.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_4ab09.dir\Release\CheckIncludeFile.obj
+  cmTC_4ab09.vcxproj -> C:\TestFor122\CMakeFiles\CMakeTmp\Release\cmTC_4ab09.exe
+FinalizeBuildStatus:
+  Файл "cmTC_4ab09.dir\Release\cmTC_4ab09.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_4ab09.dir\Release\cmTC_4ab09.tlog\cmTC_4ab09.lastbuildstate".
+Сборка проекта "C:\TestFor122\CMakeFiles\CMakeTmp\cmTC_4ab09.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:00.44
+
+
+Determining if the include file dinput.h exists passed with the following output:
+Change Dir: C:/TestFor122/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e3fec.vcxproj" "/p:Configuration=Release" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 05.10.2016 20:11:55.
+Проект "C:\TestFor122\CMakeFiles\CMakeTmp\cmTC_e3fec.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_e3fec.dir\Release\".
+  Создание каталога "C:\TestFor122\CMakeFiles\CMakeTmp\Release\".
+  Создание каталога "cmTC_e3fec.dir\Release\cmTC_e3fec.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_e3fec.dir\Release\cmTC_e3fec.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e3fec.dir\Release\\" /Fd"cmTC_e3fec.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\TestFor122\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e3fec.dir\Release\\" /Fd"cmTC_e3fec.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\TestFor122\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  
+  CheckIncludeFile.cxx
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\TestFor122\CMakeFiles\CMakeTmp\Release\cmTC_e3fec.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/TestFor122/CMakeFiles/CMakeTmp/Release/cmTC_e3fec.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/TestFor122/CMakeFiles/CMakeTmp/Release/cmTC_e3fec.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_e3fec.dir\Release\CheckIncludeFile.obj
+  cmTC_e3fec.vcxproj -> C:\TestFor122\CMakeFiles\CMakeTmp\Release\cmTC_e3fec.exe
+FinalizeBuildStatus:
+  Файл "cmTC_e3fec.dir\Release\cmTC_e3fec.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_e3fec.dir\Release\cmTC_e3fec.tlog\cmTC_e3fec.lastbuildstate".
+Сборка проекта "C:\TestFor122\CMakeFiles\CMakeTmp\cmTC_e3fec.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:00.44
+
+
+Determining if the include file dxgi.h exists passed with the following output:
+Change Dir: C:/TestFor122/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_5311a.vcxproj" "/p:Configuration=Release" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 05.10.2016 20:11:56.
+Проект "C:\TestFor122\CMakeFiles\CMakeTmp\cmTC_5311a.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_5311a.dir\Release\".
+  Создание каталога "C:\TestFor122\CMakeFiles\CMakeTmp\Release\".
+  Создание каталога "cmTC_5311a.dir\Release\cmTC_5311a.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_5311a.dir\Release\cmTC_5311a.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5311a.dir\Release\\" /Fd"cmTC_5311a.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\TestFor122\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5311a.dir\Release\\" /Fd"cmTC_5311a.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\TestFor122\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  
+  CheckIncludeFile.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\TestFor122\CMakeFiles\CMakeTmp\Release\cmTC_5311a.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/TestFor122/CMakeFiles/CMakeTmp/Release/cmTC_5311a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/TestFor122/CMakeFiles/CMakeTmp/Release/cmTC_5311a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_5311a.dir\Release\CheckIncludeFile.obj
+  cmTC_5311a.vcxproj -> C:\TestFor122\CMakeFiles\CMakeTmp\Release\cmTC_5311a.exe
+FinalizeBuildStatus:
+  Файл "cmTC_5311a.dir\Release\cmTC_5311a.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_5311a.dir\Release\cmTC_5311a.tlog\cmTC_5311a.lastbuildstate".
+Сборка проекта "C:\TestFor122\CMakeFiles\CMakeTmp\cmTC_5311a.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:00.45
+
+
+Determining if the include file xaudio2.h exists passed with the following output:
+Change Dir: C:/TestFor122/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_5a53a.vcxproj" "/p:Configuration=Release" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 05.10.2016 20:11:56.
+Проект "C:\TestFor122\CMakeFiles\CMakeTmp\cmTC_5a53a.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_5a53a.dir\Release\".
+  Создание каталога "C:\TestFor122\CMakeFiles\CMakeTmp\Release\".
+  Создание каталога "cmTC_5a53a.dir\Release\cmTC_5a53a.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_5a53a.dir\Release\cmTC_5a53a.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5a53a.dir\Release\\" /Fd"cmTC_5a53a.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\TestFor122\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5a53a.dir\Release\\" /Fd"cmTC_5a53a.dir\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\TestFor122\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  
+  CheckIncludeFile.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\TestFor122\CMakeFiles\CMakeTmp\Release\cmTC_5a53a.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/TestFor122/CMakeFiles/CMakeTmp/Release/cmTC_5a53a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/TestFor122/CMakeFiles/CMakeTmp/Release/cmTC_5a53a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_5a53a.dir\Release\CheckIncludeFile.obj
+  cmTC_5a53a.vcxproj -> C:\TestFor122\CMakeFiles\CMakeTmp\Release\cmTC_5a53a.exe
+FinalizeBuildStatus:
+  Файл "cmTC_5a53a.dir\Release\cmTC_5a53a.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_5a53a.dir\Release\cmTC_5a53a.tlog\cmTC_5a53a.lastbuildstate".
+Сборка проекта "C:\TestFor122\CMakeFiles\CMakeTmp\cmTC_5a53a.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:00.45
+
+
+Determining if files windows.h;xinput.h exist passed with the following output:
+Change Dir: C:/TestFor122/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_277f9.vcxproj" "/p:Configuration=Release" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine версии 14.0.25420.1
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 05.10.2016 20:11:57.
+Проект "C:\TestFor122\CMakeFiles\CMakeTmp\cmTC_277f9.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_277f9.dir\Release\".
+  Создание каталога "C:\TestFor122\CMakeFiles\CMakeTmp\Release\".
+  Создание каталога "cmTC_277f9.dir\Release\cmTC_277f9.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_277f9.dir\Release\cmTC_277f9.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_277f9.dir\Release\\" /Fd"cmTC_277f9.dir\Release\vc140.pdb" /Gd /TC /analyze- /errorReport:queue C:\TestFor122\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_277f9.dir\Release\\" /Fd"cmTC_277f9.dir\Release\vc140.pdb" /Gd /TC /analyze- /errorReport:queue C:\TestFor122\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\TestFor122\CMakeFiles\CMakeTmp\Release\cmTC_277f9.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/TestFor122/CMakeFiles/CMakeTmp/Release/cmTC_277f9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/TestFor122/CMakeFiles/CMakeTmp/Release/cmTC_277f9.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_277f9.dir\Release\CheckIncludeFiles.obj
+  cmTC_277f9.vcxproj -> C:\TestFor122\CMakeFiles\CMakeTmp\Release\cmTC_277f9.exe
+FinalizeBuildStatus:
+  Файл "cmTC_277f9.dir\Release\cmTC_277f9.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_277f9.dir\Release\cmTC_277f9.tlog\cmTC_277f9.lastbuildstate".
+Сборка проекта "C:\TestFor122\CMakeFiles\CMakeTmp\cmTC_277f9.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:00.39
+
+
