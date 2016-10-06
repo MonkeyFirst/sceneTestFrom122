@@ -100,15 +100,13 @@ public:
 		Zone* fog = scene_->CreateComponent<Zone>();
 		fog->SetBoundingBox(BoundingBox(Vector3(-100, -100, -100), Vector3(100, 100, 100)));
 		fog->SetFogColor(Color(0.1f, 0.1f, 0.1f));
-		fog->SetFogStart(9.0f);
+		fog->SetFogStart(8.0f);
 		fog->SetFogEnd(25.0f);
 		fog->SetAmbientColor(Color(0.15f, 0.15f, 0.1f));
 
 		sceneNode_ = scene_->CreateChild();
 		cameraNode_ = scene_->CreateChild();
-		cameraNode_->Translate(Vector3(0.0f, 0.0f, -12.0f));
-
-		ResourceCache* cache = GetSubsystem<ResourceCache>();
+		cameraNode_->Translate(Vector3(0.0f, 0.0f, -15.0f));
 	}
 	void CreateCamera() 
 	{
@@ -126,11 +124,11 @@ public:
 		lightNode_->Translate(Vector3(0, 0, 0));
 		light_ = lightNode_->CreateComponent<Light>();
 		light_->SetLightType(LightType::LIGHT_POINT);
-		light_->SetRange(1000.0f);
+		light_->SetRange(100.0f);
 		light_->SetColor(Color(1.0f, 1.0f, 1.0f));
 		light_->SetEnabled(true);
 		light_->SetCastShadows(true);
-		light_->SetBrightness(2.0f);
+		light_->SetBrightness(3.0f);
 		light_->SetPerVertex(true);
 
 	}
@@ -143,6 +141,8 @@ public:
 		for (int i = 0; i < 10; ++i) 
 		{
 			colorBoxMat_[i] = baseMat->Clone(String(i));
+			//colorBoxMat_[i]->SetVertexShaderDefines("TRANSLUCENT");
+			//colorBoxMat_[i]->SetPixelShaderDefines("TRANSLUCENT");
 			colorBoxMat_[i]->SetShaderParameter("UOffset", Vector4(0.1f, 0.0f, 0.0f, 0.1f * i));
 			colorBoxMat_[i]->SetShaderParameter("VOffset", Vector4(0.0f, 1.0f, 0.0f, 0.0f));
 
@@ -173,14 +173,14 @@ public:
 		//sm->SetCastShadows(true);
 	}
 
-	void AddTeaPot(int c, Vector3 pos) 
+	void AddTeaPot(int c, Vector3 pos)
 	{
 		static ResourceCache* cache = GetSubsystem<ResourceCache>();
 		static Model* boxModel = cache->GetResource<Model>("Models/teapot.mdl");
 	
 		Node* node = sceneNode_->CreateChild();
 		node->SetPosition(pos);
-		node->SetScale(Vector3::ONE * 2.5f);
+		node->SetScale(Vector3::ONE * 2.3f);
 		StaticModel* sm = node->CreateComponent<StaticModel>();
 		sm->SetModel(boxModel);
 		sm->SetMaterial(0, colorTeaPotMat_[c]);
