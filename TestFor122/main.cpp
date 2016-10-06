@@ -1,5 +1,7 @@
 #include "Urho3DAll.h"
 
+#define USE_SMG 1
+
 using namespace Urho3D;
 class MyApp : public Application
 {
@@ -16,7 +18,11 @@ public:
 	DebugHud* debugHud_;
 	Vector<SharedPtr<Material>> colorBoxMat_;
 	Vector<SharedPtr<Material>> colorTeaPotMat_;
-
+	
+#if USE_SMG
+	Vector<StaticModelGroup*> smgBoxes_;
+	Vector<StaticModelGroup*> smgTeaPots_;
+#endif
 
 public:
     MyApp(Context* context) :
@@ -25,6 +31,7 @@ public:
     }
     virtual void Setup()
     {
+		
         // Called before engine initialization. engineParameters_ member variable can be modified here
 #if 0
 		engineParameters_["WindowWidth"] = 1280;
@@ -46,6 +53,9 @@ public:
 		CreateCamera();
 		CreateLights();
 		GenerateMats();
+#if USE_SMG
+		PrepareSMG();
+#endif
 		FillScene();
         // Called after engine initialization. Setup application & subscribe to events here
         SubscribeToEvent(E_KEYDOWN, URHO3D_HANDLER(MyApp, HandleKeyDown));
@@ -159,8 +169,34 @@ public:
 		}
 
 		colorBoxMat_[10] = cache->GetResource<Material>("Materials/Water2.xml");
-
 	}
+#if USE_SMG
+	void PrepareSMG() 
+	{
+		static ResourceCache* cache = GetSubsystem<ResourceCache>();
+		static Model* boxModel = cache->GetResource<Model>("Models/Box.mdl");
+		static Model* teapotModel = cache->GetResource<Model>("Models/teapot.mdl");
+
+		smgBoxes_.Resize(11);
+		smgTeaPots_.Resize(3);
+		// for cubes by mat variants
+		for (int i = 0; i < 11; i++)
+		{
+			smgBoxes_[i] = sceneNode_->CreateComponent<StaticModelGroup>();
+			smgBoxes_[i]->SetModel(boxModel);
+			smgBoxes_[i]->SetMaterial(colorBoxMat_[i]);
+		}
+
+		// for teapost by mats
+		for (int i = 0; i < 3; i++)
+		{
+			smgTeaPots_[i] = sceneNode_->CreateComponent<StaticModelGroup>();
+			smgTeaPots_[i]->SetModel(teapotModel);
+			smgTeaPots_[i]->SetMaterial(colorTeaPotMat_[i]);
+
+		}
+	}
+#endif
 	void AddCube(int c, Vector3 pos) 
 	{
 		static ResourceCache* cache = GetSubsystem<ResourceCache>();
@@ -169,25 +205,33 @@ public:
 
 		Node* node = sceneNode_->CreateChild();
 		node->SetPosition(pos);
+#if USE_SMG
+		
+		smgBoxes_[c]->AddInstanceNode(node);
+#else
 		StaticModel* sm = node->CreateComponent<StaticModel>();
 		sm->SetModel(boxModel);
 		sm->SetMaterial(0, colorBoxMat_[c]);
-		
+#endif	
 		//sm->SetCastShadows(true);
 	}
 
 	void AddTeaPot(int c, Vector3 pos)
 	{
 		static ResourceCache* cache = GetSubsystem<ResourceCache>();
-		static Model* boxModel = cache->GetResource<Model>("Models/teapot.mdl");
+		static Model* teapotModel = cache->GetResource<Model>("Models/teapot.mdl");
 	
 		Node* node = sceneNode_->CreateChild();
 		node->SetPosition(pos);
 		node->SetScale(Vector3::ONE * 2.3f);
+#if USE_SMG
+		smgTeaPots_[c]->AddInstanceNode(node);
+#else
 		StaticModel* sm = node->CreateComponent<StaticModel>();
-		sm->SetModel(boxModel);
+		sm->SetModel(teapotModel);
 		sm->SetMaterial(0, colorTeaPotMat_[c]);
 		//sm->SetCastShadows(true);
+#endif
 	}
 
 	void FillScene() 
