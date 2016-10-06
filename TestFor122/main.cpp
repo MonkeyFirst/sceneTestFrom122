@@ -18,6 +18,10 @@ public:
 	DebugHud* debugHud_;
 	Vector<SharedPtr<Material>> colorBoxMat_;
 	Vector<SharedPtr<Material>> colorTeaPotMat_;
+
+	Node* textNode_;
+	Text3D* text3d_;
+
 	
 #if USE_SMG
 	Vector<StaticModelGroup*> smgBoxes_;
@@ -57,6 +61,7 @@ public:
 		PrepareSMG();
 #endif
 		FillScene();
+		CreateFpsInfo();
         // Called after engine initialization. Setup application & subscribe to events here
         SubscribeToEvent(E_KEYDOWN, URHO3D_HANDLER(MyApp, HandleKeyDown));
 		SubscribeToEvent(E_UPDATE, URHO3D_HANDLER(MyApp, HandleUpdate));
@@ -87,6 +92,25 @@ public:
 		float timeStep = eventData[P_TIMESTEP].GetFloat();
 		Quaternion q = Quaternion(5.0f * timeStep, -20.0f * timeStep, 10.0f * timeStep);
 		cameraRotate_->SetRotation(cameraRotate_->GetRotation() * q);
+		
+		static float elapsedMs = 0.0f;
+		static int frames = 0;
+		static float runtime = 0;
+		static int allframes = 0;
+		if (elapsedMs > 1.0f) 
+		{
+			text3d_->SetText(String("avg fps = ") + String(allframes / (int)runtime) + String(" time = ") + String((int)runtime));
+			allframes += frames;
+			elapsedMs = 0.0;
+		}
+		else 
+		{
+			elapsedMs += timeStep;
+			frames++;
+		}
+
+		runtime += timeStep;
+
 	}
 	void CreateConsoleAndDebug()
 	{
@@ -124,7 +148,7 @@ public:
 	void CreateCamera() 
 	{
 		camera_ = cameraNode_->CreateComponent<Camera>();
-		camera_->SetFov(45.0f);
+		camera_->SetFov(60.0f);
 		camera_->SetNearClip(1.0f);
 		camera_->SetFarClip(50.0f);
 		viewport_ = new Viewport(context_, scene_, camera_);
@@ -232,6 +256,23 @@ public:
 		sm->SetMaterial(0, colorTeaPotMat_[c]);
 		//sm->SetCastShadows(true);
 #endif
+	}
+
+	void CreateFpsInfo() 
+	{
+		ResourceCache* cache = GetSubsystem<ResourceCache>();
+
+		textNode_ = cameraNode_->CreateChild();
+		textNode_->SetPosition(Vector3(0.0f, 0.0f, 1.1f));
+		textNode_->SetScale(Vector3::ONE * 0.15f);
+		text3d_ = textNode_->CreateComponent<Text3D>();
+		text3d_->SetText("FPS");
+		text3d_->SetEffectDepthBias(2.5f);
+		//text3d_->SetFontSize(0.1f);
+		text3d_->SetFont(cache->GetResource<Font>("Fonts/BlueHighway.sdf"), 24);
+		text3d_->SetColor(Color::RED);
+		text3d_->SetFaceCameraMode(FaceCameraMode::FC_ROTATE_XYZ);
+		text3d_->SetAlignment(HA_CENTER, VA_CENTER);
 	}
 
 	void FillScene() 
