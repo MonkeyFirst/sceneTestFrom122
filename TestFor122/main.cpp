@@ -7,6 +7,7 @@ public:
 	Scene* scene_;
 	Viewport* viewport_;
 	Camera* camera_;
+	Node* cameraRotate_;
 	Node* cameraNode_;
 	Node* sceneNode_;
 	Node* lightNode_;
@@ -75,7 +76,7 @@ public:
 		using namespace Update;
 		float timeStep = eventData[P_TIMESTEP].GetFloat();
 		Quaternion q = Quaternion(5.0f * timeStep, -20.0f * timeStep, 10.0f * timeStep);
-		sceneNode_->SetRotation(sceneNode_->GetRotation() * q);
+		cameraRotate_->SetRotation(cameraRotate_->GetRotation() * q);
 	}
 	void CreateConsoleAndDebug()
 	{
@@ -105,7 +106,9 @@ public:
 		fog->SetAmbientColor(Color(0.15f, 0.15f, 0.1f));
 
 		sceneNode_ = scene_->CreateChild();
-		cameraNode_ = scene_->CreateChild();
+
+		cameraRotate_ = scene_->CreateChild();
+		cameraNode_ = cameraRotate_->CreateChild();
 		cameraNode_->Translate(Vector3(0.0f, 0.0f, -15.0f));
 	}
 	void CreateCamera() 
