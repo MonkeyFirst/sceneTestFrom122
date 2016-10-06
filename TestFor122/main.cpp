@@ -102,6 +102,7 @@ public:
 			text3d_->SetText(String("avg fps = ") + String(allframes / (int)runtime) + String(" time = ") + String((int)runtime));
 			allframes += frames;
 			elapsedMs = 0.0;
+			frames = 0;
 		}
 		else 
 		{
